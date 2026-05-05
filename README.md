@@ -3,6 +3,11 @@
 Real-time location tracking (RTLS) dashboard for UWB (Ultra-Wideband) anchor boards.
 Receives range measurements from UWB hardware over MQTT, computes tag positions via least-squares trilateration, and visualizes them on a Flutter-based interactive map.
 
+<p align="center">
+  <img src="lib/images/screenshot_1.png" width="49%" alt="Data tab — live MQTT readings and per-tag distances">
+  <img src="lib/images/screenshot_2.png" width="49%" alt="Map view — anchors, tag position, and distance lines">
+</p>
+
 ## Features
 
 - **Real-time MQTT ingest** — automatic transport selection per platform: raw TCP for mobile/desktop, WebSocket (TLS) for web
